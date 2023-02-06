@@ -1,5 +1,30 @@
 @import 'variables';
 
-h1 {
-  color: $red-color;
+.card-course-item {
+  margin-top: 16px;
+}
+
+.card-course-item .card-img-top {
+  height: 194px;
+  object-fit: cover;
+}
+
+.card-course-item .card-title {
+  -webkit-line-clamp: 2;
+  height: 48px;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+.card-course-item .card-text {
+  -webkit-line-clamp: 3;
+  height: 72px;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
 }
